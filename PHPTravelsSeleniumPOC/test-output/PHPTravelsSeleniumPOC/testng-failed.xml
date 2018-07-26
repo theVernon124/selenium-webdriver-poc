@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PHPTravelsSeleniumPOC]">
+  <test thread-count="5" name="SampleTests(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="blankPassword"/>
+          <include name="validLogin"/>
+          <include name="blankEmail"/>
+          <include name="invalidEmail"/>
+          <include name="invalidPassword"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="nonExistentEmail"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- SampleTests(failed) -->
+</suite> <!-- Failed suite [PHPTravelsSeleniumPOC] -->

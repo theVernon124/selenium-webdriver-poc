@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PCLenderSampleTestSuite]">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="tests.SmokeTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="Smoke"/>
+        </methods>
+      </class> <!-- tests.SmokeTest -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [PCLenderSampleTestSuite] -->

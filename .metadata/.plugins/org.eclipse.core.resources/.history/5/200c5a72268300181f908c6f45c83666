@@ -1,0 +1,67 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class BorrowerInfoPage {
+	//	Elements
+	private static WebElement element = null;
+	public static WebElement borrowerInfoHeader(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#headerTitle"));
+	}
+	public static WebElement firstNameField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#first_name_borrower_1"));
+	}
+	public static WebElement lastNameField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#last_name_borrower_1"));
+	}
+	public static WebElement bdayField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#birthdate_borrower_1"));
+	}
+	public static WebElement ssnField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#fakessn_1"));
+	}
+	public static WebElement maritalStatusDropdown(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#marital_status_borrower_1"));
+	}
+	public static WebElement citizenshipDropdown(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#citizenship_borrower_1"));
+	}
+	public static WebElement streetField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#current_street_borrower_1"));
+	}
+	public static WebElement zipCode(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#current_zip_borrower_1"));
+	}
+	public static WebElement cityField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#current_city_borrower_1"));
+	}
+	public static WebElement stateDropdown(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#current_state_borrower_1"));
+	}
+	public static WebElement lengthAddressField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#current_residence_length_borrower_1"));
+	}
+	public static WebElement ownRentDropdown(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#current_own_rent_borrower_1"));
+	}
+	public static WebElement homePhone(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#home_phone_borrower_1"));
+	}
+	public static WebElement incomeVerificationDropdown(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#income_verification_borrower_1"));
+	}
+	public static WebElement creditReportDropdown(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#use_credit_report_borrower_1"));
+	}
+	public static WebElement ethnicityCheckbox(WebDriver driver, String ethnicityID) {
+		return element = driver.findElement(By.cssSelector("#" + ethnicityID + " > div > label > .ethnicity_section"));		
+	}
+	public static WebElement genderCheckbox(WebDriver driver, String gender) {
+		return element = driver.findElement(By.xpath("//div[@id='gender_']/div/div/label[span/text()='" + gender + "']/input"));
+	}
+	public static WebElement nextBtn(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#btnNext"));
+	}
+}

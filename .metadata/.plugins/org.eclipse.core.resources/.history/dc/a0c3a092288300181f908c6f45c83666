@@ -1,0 +1,22 @@
+package data;
+
+public class TestData {
+	//	Constants
+	public static long waitTimeout = 15;
+	//	URLs
+	public static String homePageUrl = "https://www.qa.pclender.com/af3/asb/index";
+	//	Input
+	public static String returningValue = "no";
+	public static String existingValue = "1";
+	public static String acctNum = "12345678";
+	public static String purposeValue = "purchase_contract";
+	public static String borrowers = "1";
+	public static String propertyUsage = "primary_residence";
+	public static String loanProgram = "513";
+	public static String email = "johndoetest@pclendertest.com";
+	public static String password = "Test1234";
+	//	Spiels
+	public static String introHeaderSpiel = "Introduction";
+	public static String generalInfoHeaderSpiel = "General Information";
+	public static String borrowerInfoHeaderSpiel = "Borrower Information";
+}

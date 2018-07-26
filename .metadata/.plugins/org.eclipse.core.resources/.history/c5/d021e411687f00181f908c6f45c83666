@@ -1,0 +1,25 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class BorrowerInfoPage {
+	//	Elements
+	private static WebElement element = null;
+	public static WebElement borrowerInfoHeader(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#headerTitle"));
+	}
+	public static WebElement firstNameField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#first_name_borrower_1"));
+	}
+	public static WebElement lastNameField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#last_name_borrower_1"));
+	}
+	public static WebElement bdayField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#birthdate_borrower_1"));
+	}
+	public static WebElement ssnField(WebDriver driver) {
+		return element = driver.findElement(By.cssSelector("#fakessn_1"));
+	}
+}

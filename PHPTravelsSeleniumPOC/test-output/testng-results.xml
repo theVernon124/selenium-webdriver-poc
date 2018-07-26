@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PHPTravelsSeleniumPOC" duration-ms="77347" started-at="2018-07-02T06:30:18Z" finished-at="2018-07-02T06:31:35Z">
+    <groups>
+    </groups>
+    <test name="SampleTests" duration-ms="77347" started-at="2018-07-02T06:30:18Z" finished-at="2018-07-02T06:31:35Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.LoginTest@724af044]" name="beforeClass" is-config="true" duration-ms="19582" started-at="2018-07-02T06:30:18Z" finished-at="2018-07-02T06:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.LoginTest@724af044]" name="beforeMethod" is-config="true" duration-ms="6690" started-at="2018-07-02T06:30:37Z" finished-at="2018-07-02T06:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="blankEmail()[pri:0, instance:tests.LoginTest@724af044]" name="blankEmail" duration-ms="772" started-at="2018-07-02T06:30:44Z" finished-at="2018-07-02T06:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankEmail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.LoginTest@724af044]" name="beforeMethod" is-config="true" duration-ms="10401" started-at="2018-07-02T06:30:45Z" finished-at="2018-07-02T06:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="blankPassword()[pri:0, instance:tests.LoginTest@724af044]" name="blankPassword" duration-ms="888" started-at="2018-07-02T06:30:55Z" finished-at="2018-07-02T06:30:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.LoginTest@724af044]" name="beforeMethod" is-config="true" duration-ms="6700" started-at="2018-07-02T06:30:56Z" finished-at="2018-07-02T06:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidEmail()[pri:0, instance:tests.LoginTest@724af044]" name="invalidEmail" duration-ms="797" started-at="2018-07-02T06:31:03Z" finished-at="2018-07-02T06:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.LoginTest@724af044]" name="beforeMethod" is-config="true" duration-ms="7587" started-at="2018-07-02T06:31:04Z" finished-at="2018-07-02T06:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidPassword()[pri:0, instance:tests.LoginTest@724af044]" name="invalidPassword" duration-ms="844" started-at="2018-07-02T06:31:11Z" finished-at="2018-07-02T06:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.LoginTest@724af044]" name="beforeMethod" is-config="true" duration-ms="7259" started-at="2018-07-02T06:31:12Z" finished-at="2018-07-02T06:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="nonExistentEmail()[pri:0, instance:tests.LoginTest@724af044]" name="nonExistentEmail" duration-ms="739" started-at="2018-07-02T06:31:19Z" finished-at="2018-07-02T06:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonExistentEmail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.LoginTest@724af044]" name="beforeMethod" is-config="true" duration-ms="5902" started-at="2018-07-02T06:31:20Z" finished-at="2018-07-02T06:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:tests.LoginTest@724af044]" name="validLogin" duration-ms="8234" started-at="2018-07-02T06:31:26Z" finished-at="2018-07-02T06:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.LoginTest@724af044]" name="afterClass" is-config="true" duration-ms="897" started-at="2018-07-02T06:31:34Z" finished-at="2018-07-02T06:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- SampleTests -->
+  </suite> <!-- PHPTravelsSeleniumPOC -->
+</testng-results>
